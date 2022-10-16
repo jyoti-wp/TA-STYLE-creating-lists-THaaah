@@ -198,6 +198,8 @@ img {
     object-fit: cover;
 }
 
+/* custom style  */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -229,13 +231,17 @@ ul a {
     margin: 0px 10px
 }
 
+.list-item {
+    width: 33%;
+}
+
 .box {
     background-color: #1E5979;
     /* list-style: decimal; */
     /* list-style-position: inside; */
     padding: 40px 80px;
-    box-shadow: 5px 5px 3px gray;
-    height: 100vh;
+    box-shadow: 8px 8px 6px grey;
+    height: 70vh;
 }
 
 
@@ -253,10 +259,12 @@ ul a {
 
 .list-style ol {
     margin-inline-start: 40px;
+    list-style-position: inherit;
 }
 
 .list-style ul {
     margin-inline-start: 40px;
+    list-style-position: inherit;
 }
 
 .list-style-tick li {
@@ -267,3 +275,30 @@ ul a {
 /* .list-style-tick li::marker {
     margin: 10px !;
 } */
+
+/* text section  */
+
+.section {
+    margin: 40px 0px;
+}
+
+.text h2 {
+    font-size: 40px;
+    line-height: 1.7;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.text p {
+    color: #6E654F;
+    text-transform: capitalize;
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 25px;
+}
+
+.footer {
+    background-color: #252C22;
+    padding: 50px 0px;
+}
