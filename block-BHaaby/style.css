@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: sans-serif;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: fantasy;
+    background-color: #D4CEA7;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+// My reset
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+button,
+input:focus,
+button:focus,
+textarea:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+button {
+    border: 0;
+    background: none;
+}
+
+input::placeholder {
+    letter-spacing: 0.04em;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+b {
+    font-weight: bold;
+}
+
+i {
+    font-style: italic;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+img {
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 35px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.header {
+    padding: 40px 0px;
+    background-color: #EF6036;
+}
+
+.main {
+    margin-top: 60px;
+}
+
+ul a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0px 10px
+}
+
+.box {
+    background-color: #1E5979;
+    /* list-style: decimal; */
+    /* list-style-position: inside; */
+    padding: 40px 80px;
+    box-shadow: 5px 5px 3px gray;
+    height: 100vh;
+}
+
+
+.box li {
+    list-style: decimal;
+    list-style-position: inherit;
+    color: #D4CEA7;
+    text-transform: capitalize;
+    line-height: 1.7;
+}
+
+.list-style li {
+    list-style: inherit;
+}
+
+.list-style ol {
+    margin-inline-start: 40px;
+}
+
+.list-style ul {
+    margin-inline-start: 40px;
+}
+
+.list-style-tick li {
+    list-style-type: none;
+    list-style-image: url(images/checked.png);
+}
+
+/* .list-style-tick li::marker {
+    margin: 10px !;
+} */
